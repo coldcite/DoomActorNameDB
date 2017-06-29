@@ -7,3 +7,10 @@ ZDoom-compatible language file storing known actor classes and their proper name
 - Calling GetActorName(*strClassName*) will return the proper name for actor with class *strClassName* if found.
 
 Unless otherwise noted, in case the DB is updated you will only need to update the language file.
+
+# Actor sets included
+- Doom/Ultimate Doom
+- Doom II/Final Doom
+- Meta Doom
+- Smooth Doom
+- Beautiful Doom
