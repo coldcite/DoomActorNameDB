@@ -1,0 +1,17 @@
+#library "doomactornamedb"
+
+/*
+** DOOM ACTOR NAME DB
+** coldcite (05/2017)
+*/
+
+function str GetActorName(str ClassName) {
+
+	str LangVariable = StrParam(s: "DoomActorNameDB_", s: ClassName);
+	str EnemyName = StrParam(l: LangVariable);
+	
+	if (EnemyName == LangVariable) EnemyName = ClassName;
+	
+	return EnemyName;
+
+}
